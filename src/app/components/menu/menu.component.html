@@ -1,0 +1,42 @@
+
+<!-- horizontal -->
+
+<mat-card class="my-card">
+  <h1> MENU PRINCIPAL </h1>
+</mat-card>
+<div class="flip">
+    <div class="front" style="background-image: url(../../../assets/gestioncliente.jpg)">
+       <h1 class="text-shadow">Gestion de clientes</h1>
+    </div>
+    <div class="back">
+       <h2>Gestion de Clientes</h2>
+       <p>En este modulo usted podra realizar las siguientes acciones: Crear clientes, actualizar sus datos por distintos parametros...</p>
+       <button (click)="this.navegarModuloClientes()" class="btn btn-primary zoom-button-login">Ir al módulo</button>
+    </div>
+</div>
+<div class="flip">
+    <div class="front" style="background-image: url(../../../assets/gestionproductos2.jpg)">
+       <h1 class="text-shadow">Gestion de Productos</h1>
+    </div>
+    <br>
+    <div class="back">
+       <h2>Gestion de Productos</h2>
+       <p>En este modulo usted podra realizar las sisguientes acciones: Crear un producto, actualizar datos..</p>
+    </div>
+</div>
+<div class="flip">
+    <div class="front" style="background-image: url(../../../assets/administracion.png)">
+       <h1 class="text-shadow">Administracion del sistema</h1>
+    </div>
+    <div class="back">
+       <h2>Administracion del sistema</h2>
+       <p>En este modulo usted podra realizar las siguientes acciones: Crear usuarios, crear producot, actualizar datos.</p>
+    </div>
+</div>
+
+<div class="menu fixed azul-claro">
+  <ul class="menu-items">
+    <li><a href="#">Ayuda</a></li>
+    <li><a (click)="this.regresar()">Cerrar sesion</a></li>
+  </ul>
+</div>
